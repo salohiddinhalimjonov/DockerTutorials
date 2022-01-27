@@ -1,0 +1,28 @@
+Why my application does not work on other machine?
+1. One or more files missing(Not fully deployed)
+2. Software version mismatch(python3 needed, but python2 running!)
+3. Different configuration settings(env variables are different across this machine)
+
+Container - An isolated environment for running an application
+
+Differences between container and virtual machines(abstraction of a machine(physical hardware))
+
+Problems of virtual machines:
+1. Each VM needs a full-blown OS
+2. Slow to start
+3. Resource intensive(CPU, Memory, etc.)
+
+Benefits of Containers:
+1. Allow running mulltiple apps in isolation
+2. Are lightweight(Don't nee full OS)
+3. Use OS of the host
+4. Start quickly
+5. Need less hardware resources(less CPU, less Memory)
+
+
+Image contains:
+A cut-down OS
+A runtime environment(Python, Node)
+Application files
+third-party libraries
+Environment variables
